@@ -113,6 +113,7 @@ public class Board {
                 table[5][i] = 'V';
                 table[6][i] = 'V';
                 table[7][i] = 'V';
+                table[8][i] = 'V';
                 score += 120;
             }
         }

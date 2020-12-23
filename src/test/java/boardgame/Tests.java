@@ -41,4 +41,27 @@ public class Tests {
         Piece piece7 = new Piece(7);
         Assert.assertEquals(piece7.getFicha()[0][0], 0);
     }
+
+    @Test
+    public void test_points(){
+        Board board = new Board();
+        Piece piece = new Piece(3);
+        board.playPiece(piece, 0,0);
+        board.playPiece(piece, 3,0);
+        board.playPiece(piece, 6,0);
+        board.drawBoard();
+        Assert.assertEquals(board.getPoints(), 120);
+        board.playPiece(piece, 0,0);
+        board.playPiece(piece, 0,1);
+        board.playPiece(piece, 0,2);
+        board.drawBoard();
+        Assert.assertEquals(board.getPoints(), 150);
+        Piece piece1 = new Piece(2);
+        board.playPiece(piece1, 0,0);
+        board.playPiece(piece1, 0,3);
+        board.playPiece(piece1, 0,6);
+        board.drawBoard();
+        Assert.assertEquals(board.getPoints(), 120);
+
+    }
 }
