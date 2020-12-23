@@ -27,20 +27,18 @@ public class Tests {
         Piece piece0 = new Piece(0);
         Assert.assertEquals(piece0.getFicha()[0][0], 0);
         Piece piece1 = new Piece(1);
-        Assert.assertEquals(piece0.getFicha()[0][0], 0);
+        Assert.assertEquals(piece1.getFicha()[0][0], 0);
         Piece piece2 = new Piece(2);
-        Assert.assertEquals(piece0.getFicha()[0][0], 0);
+        Assert.assertEquals(piece2.getFicha()[0][0], 0);
         Piece piece3 = new Piece(3);
-        Assert.assertEquals(piece0.getFicha()[0][0], 0);
+        Assert.assertEquals(piece3.getFicha()[0][0], 0);
         Piece piece4 = new Piece(4);
-        Assert.assertEquals(piece0.getFicha()[0][0], 0);
+        Assert.assertEquals(piece4.getFicha()[0][0], 2);
         Piece piece5 = new Piece(5);
-        Assert.assertEquals(piece0.getFicha()[0][0], 0);
+        Assert.assertEquals(piece5.getFicha()[0][0], 0);
         Piece piece6 = new Piece(6);
-        Assert.assertEquals(piece0.getFicha()[0][0], 0);
+        Assert.assertEquals(piece6.getFicha()[0][0], 0);
         Piece piece7 = new Piece(7);
-        Assert.assertEquals(piece0.getFicha()[0][0], 0);
-
-
+        Assert.assertEquals(piece7.getFicha()[0][0], 0);
     }
 }

@@ -1,6 +1,5 @@
 package boardgame;
 
-import java.util.logging.Logger;
 
 public class Board {
     private char [][] table;
@@ -43,10 +42,8 @@ public class Board {
         for (int i = 0; i < 5; i++) {
             int xPiece = piece.getFicha()[i][0];
             int yPiece = piece.getFicha()[i][1];
-            if (xPiece != -1 && yPiece != -1){
-                if (table[cordX +xPiece][cordY +yPiece] != 'V'){
+            if (xPiece != -1 && yPiece != -1 && table[cordX +xPiece][cordY +yPiece] != 'V'){
                     return true;
-                }
             }
         }
         return false;

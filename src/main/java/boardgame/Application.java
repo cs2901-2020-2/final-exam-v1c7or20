@@ -1,13 +1,13 @@
 package boardgame;
 
-import java.util.Random;
+import java.security.SecureRandom;
 import java.util.Scanner;
 
 
 public class Application {
+    SecureRandom random = new SecureRandom();
 
     public Piece generatePiece(){
-        Random random = new Random();
         int nrPiece = random.nextInt(8);
         return new Piece(nrPiece);
     }
