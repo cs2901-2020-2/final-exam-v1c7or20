@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 public class Application {
     SecureRandom random = new SecureRandom();
+    int totalPoints = 0;
 
     public Piece generatePiece(){
         int nrPiece = random.nextInt(8);
@@ -23,6 +24,7 @@ public class Application {
         Piece inPlay = generatePiece();
         board.playPiece(inPlay, cordX,cordY);
         board.drawBoard();
+        totalPoints += board.getPoints();
     }
 
 
