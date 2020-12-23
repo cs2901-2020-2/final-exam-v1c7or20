@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 @Test
-public class tests {
+public class Tests {
     @Test
     public void test_draw(){
         Board board = new Board();
