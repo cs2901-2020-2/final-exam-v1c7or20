@@ -64,4 +64,6 @@ public class Tests {
         Assert.assertEquals(board.getPoints(), 120);
 
     }
+
+
 }
