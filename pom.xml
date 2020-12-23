@@ -7,10 +7,10 @@
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <sonar.projectKey>cs2901-2020-2_midterm-v1c7or20</sonar.projectKey>
+        <sonar.projectKey>cs2901-2020-2_final-exam-v1c7or20</sonar.projectKey>
         <sonar.organization>cs2901-2020-2</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-        <sonar.login>14809558e854db17dd80267dd952d380b73899f8</sonar.login>
+        <sonar.login>7401d825b4b36ec6d4fba4d798861fcfd34f20bd</sonar.login>
     </properties>
 
     <groupId>org.example</groupId>
