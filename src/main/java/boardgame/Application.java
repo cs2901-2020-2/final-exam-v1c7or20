@@ -1,7 +1,10 @@
 package boardgame;
 
 public class Application {
-    public static void main(String[] args) {
 
+    public Piece generatePiece(){
+
+        return null;
     }
+
 }
